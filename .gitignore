@@ -1,0 +1,50 @@
+# Virtual Environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment variables (NEVER commit!)
+.env
+.env.local
+.env.*.local
+.flaskenv
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# AWS credentials (NEVER commit!)
+~/.aws/credentials
+aws_credentials.txt
+
+# Migrations (keep the folder, not the versions)
+migrations/versions/*.pyc
+
+# Temporary files
+*.tmp
+temp/
+.temp/
